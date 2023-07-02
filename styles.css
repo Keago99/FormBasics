@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--txt);
+}
+
 .scaffold{
     display: flex;
     height: 100vh;
@@ -6,9 +14,33 @@
 }
 
 .backgroundPlant{
-    width: 30vw;
+    height: 100vh;
+    width: 40vw;
     background-position: center;
-    background-size: auto;
+    background-size: 100vh;
     background-repeat: no-repeat;
     background-image: url(Images/plantBackground.jpg);
+}
+
+.attribution{
+    position: absolute;
+    color: azure;
+    bottom: 3px;
+    size: 8px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 120px;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.odinLogo{
+    margin-left: 30px;
+    width: 80px;
+    height: 120px;
 }
