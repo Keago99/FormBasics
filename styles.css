@@ -64,8 +64,17 @@ body{
 
 .getStarted{
     margin-top: 60px;
-    margin-left: 50px;
-    margin-right: 150px;
     font-size: x-large;
     font-weight: bold;
+}
+
+.middleSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+.form{
+    margin-top: 60px;
 }
