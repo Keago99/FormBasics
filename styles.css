@@ -78,3 +78,21 @@ body{
 .form{
     margin-top: 60px;
 }
+
+label{
+    font-size: small;
+    font-weight:400;
+}
+
+button{
+    height: 35px;
+    width: 180px;
+    border-radius: 10px;
+    background: #4c7e07;
+    color: white;
+    font-weight:bolder;
+}
+
+input{
+    border-color: #E5E7EB;
+}
